@@ -51,9 +51,3 @@ version 16.0
 
 end
  
-
-* executando comando
-sysuse auto, clear
-dist trunk, i
-
-
