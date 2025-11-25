@@ -1,6 +1,4 @@
 
-program drop dist
-
 program define dist
 version 16.0
     syntax varlist(min=1 max=1 numeric) [if] [in] [, Intervalo]
@@ -57,4 +55,5 @@ end
 * executando comando
 sysuse auto, clear
 dist trunk, i
+
 
